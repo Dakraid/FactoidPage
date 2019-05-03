@@ -1,6 +1,6 @@
 # Factoid Page
 
-This is the web source for the webpage under facts.netrve.net
+This is the web source for the webpage under [facts.netrve.net](https://facts.netrve.net/)
 The purpose of the webpage is to display all collected factoids from a bot running on the Skyrimmods Discord.
 
 ## Overview:
