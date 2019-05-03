@@ -1,0 +1,6 @@
+{
+    "require": {
+        "phpseclib/phpseclib": "^2.0",
+        "jaredchu/simple-cache": "^1.1"
+    }
+}

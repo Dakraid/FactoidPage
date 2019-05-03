@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    background-color: #18171C;
+    color: #FFFFFF;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+}
+
+#canvas {
+    display: none;
+}
+
+#content {
+    font-size: x-large;
+    line-height: 1.4em;
+    margin: 5%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 10px;
+}
+
+#curtain {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-color: #18171C;
+    transition: opacity 2s linear;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.table-title {
+    margin: 8px 4px;
+    font: bold 16px 'Segoe UI Semilight', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+td.key {
+    width: 150px;
+}
+
+td.fact {
+    width: calc(100% - 150px);
+}
