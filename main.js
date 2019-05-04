@@ -1,14 +1,12 @@
 var request = $.ajax({
-    url: "gen.php",
+    url: "genNew.php",
     type: 'GET',
     success: function (data) {
         document.getElementById("text").innerHTML = data;
+        formatTable();
     }
 });
 
-request.done(function () {
-    formatTable();
-})
 
 function formatTable() {
     $("#factTable").tablesorter({
@@ -46,16 +44,6 @@ function formatTable() {
 function clearCache() {
     $.ajax({
         url: "clear.php",
-        type: 'GET',
-        success: function (data) {
-            alert(data);
-        }
-    });
-}
-
-function getCache() {
-    $.ajax({
-        url: "debug.php",
         type: 'GET',
         success: function (data) {
             alert(data);

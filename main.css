@@ -28,7 +28,7 @@ body {
     width: 100%;
     z-index: -1;
     background-color: #18171C;
-    transition: opacity 2s linear;
+    transition: opacity .4s linear;
 }
 
 .hidden {

@@ -1,12 +1,11 @@
 <?php
     require __DIR__ . '/vendor/autoload.php';
-    use JC\Cache\SimpleCache;
+    use Phpfastcache\CacheManager;
 
-    SimpleCache::remove('query');
-
-    if(SimpleCache::exists('query')){
-        echo "Could not clear cache";
+    $InstanceCache = CacheManager::getInstance('Sqlite');
+    if ($InstanceCache->clear()) {
+        echo 'Cache successfully cleared';
     } else {
-        echo "Cache cleared";
+        echo 'Cache could not be cleared';
     }
 ?>

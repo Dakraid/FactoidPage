@@ -191,7 +191,7 @@ function draw_galactic_plane() {
   // which is why we wait for a whole second rather than just a single milli.
   setTimeout(function() {
     document.getElementById("curtain").className='hidden';
-  }, 1000);
+  }, 200);
 }
 
 onload = draw_galactic_plane;

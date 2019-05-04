@@ -1,6 +1,7 @@
 {
     "require": {
         "phpseclib/phpseclib": "^2.0",
-        "jaredchu/simple-cache": "^1.1"
+        "jaredchu/simple-cache": "^1.1",
+        "phpfastcache/phpfastcache": "^7.0"
     }
 }
